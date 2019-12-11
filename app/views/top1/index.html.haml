@@ -1,0 +1,200 @@
+-# .header
+-#   .header__lefts
+-#     %h2.header__lefts__left
+-#       Google Pixel 4 販売中！
+-#     %h2.header__lefts__center
+-#       詳しくみる
+-#     .header__lefts__right
+-#   .header__rights
+-#     %h2.header__rights__left
+-#       iPhone 11 Pro 販売中！
+-#     .header__rights__center
+-#       詳しくみる
+-#     .header__rights__right
+
+.top
+  .top__box
+    .top__box__bg
+      .top__box__bg__image1
+        = image_tag 'top/background/img-black-background-12-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image2
+        = image_tag 'top/background/img-black-background-03-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image3
+        = image_tag 'top/background/img-black-background-05-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image4
+        = image_tag 'top/background/img-black-background-01-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image5
+        = image_tag 'top/background/img-black-background-06-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image6
+        = image_tag 'top/background/img-black-background-09-20190525.jpeg', height: '200', width: '200'
+      .top__box__bg__image7
+        = image_tag 'top/background/img-black-background-10-20190525.jpeg', height: '200', width: '200'
+    .top__box__logo
+      .top__box__logo__image
+        = link_to '#' do
+          = image_tag 'top/middle/logo-sb-white.png', height: '55.91', width: '383'
+    .top__box__down
+      %p.top__box__down__title
+        知りたいサービスを選んでください
+      .top__box__down__worldmenu
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-mobile-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title1
+            スマートフォン
+            %br
+              携帯電話
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-internet-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title1
+            インターネット
+            %br
+              固定電話
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-energy-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title2
+            でんき
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-robot-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title2
+            ロボット
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-biz-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title2
+            法人のお客さま
+        .top__box__down__worldmenu__item
+          .top__box__down__worldmenu__item__image
+            = image_tag  'top/middle/icon-corp-worldmenu-2x.png', height: '86', width: '86'
+          %h3.top__box__down__worldmenu__item__title2
+            企業・IR
+      .top__box__down__list
+        .top__box__down__list__left
+          .top__box__down__list__left__in
+            = link_to '#' do
+              = image_tag 'top/down/icon-utility-paypay.png', height: '30', width: '120'
+        .top__box__down__list__right
+          .top__box__down__list__right__in1
+            = link_to '#' do
+              = image_tag 'top/down/icon-utility-mysoftbank-01.svg', height: '42', width: '43'
+            %p.top__box__down__list__right__in1__text
+              My SoftBank
+        .top__box__down__list__right
+          .top__box__down__list__right__in1
+            = link_to '#' do
+              = image_tag 'top/down/icon-utility-support-01.svg', height: '42', width: '43'
+            %p.top__box__down__list__right__in1__text
+              サポート
+        .top__box__down__list__right
+          .top__box__down__list__right__in1
+            = link_to '#' do
+              = image_tag 'top/down/icon-utility-shop-01.svg', height: '42', width: '43'
+            %p.top__box__down__list__right__in1__text
+              店舗を探す
+.middle
+  .middle__left
+    %p.middle__left__text
+      現在の支援活動
+  .middle__right
+    .middle__right__box1
+      %p.middle__right__box1__text
+        台風第19号
+    .middle__right__box2
+      %p.middle__right__box2__text
+        災害支援措置について
+      .middle__right__box2__icon
+    .middle__right__box3
+      %p.middle__right__box3__text
+        復旧への取り組みについて
+      .middle__right__box3__icon
+
+.topics
+  .topics__top
+    %h2.topics__top__eng
+      TOPICS
+    %h2.topics__top__jap
+      トピックス
+
+  .topics__middle
+    %ul.topics__middle__slider
+      %li
+        = image_tag "topics/img-iphone-11-buy.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-iphone-11-pro-buy.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-lemon_sp-debut-20191202.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-paypay-20190913.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-sumaho-debut-plan.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-super_friday-20191202.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-paypay-20190913.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-sumaho-debut-plan.jpg", class: "topics__middle__slider__image"
+      %li
+        = image_tag "topics/img-super_friday-20191202.jpg", class: "topics__middle__slider__image"
+
+
+  .topics__down
+
+.menu
+
+
+-# ============================================
+.footer
+  .footer__top
+    = image_tag 'footer/logo-sb.svg', height: 'auto', width: '192'
+  .footer__middle
+    .footer__middle__head
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          商標について
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          情報セキュリティポリシー
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          個人情報の取り扱いについて
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          約款・重要事項
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          サイトポリシー
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          免責事項
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+        %p.footer__middle__head__boxs__text
+          古物営業法に基づく表示
+      .footer__middle__head__boxs
+        .footer__middle__head__boxs__line
+    .footer__middle__down
+      .footer__middle__down__boxs
+        .footer__middle__down__boxs__line
+        %p.footer__middle__down__boxs__text
+          特定商取引法に基づく表示
+      .footer__middle__down__boxs
+        .footer__middle__down__boxs__line
+        %p.footer__middle__down__boxs__text
+          商品の返品・交換について
+      .footer__middle__down__boxs
+        .footer__middle__down__boxs__line
+        %p.footer__middle__down__boxs__text
+          サイトマップ
+      .footer__middle__down__boxs
+        .footer__middle__down__boxs__line
+  %p.footer__down
+    © SoftBank Corp. All Rights Reserved.
